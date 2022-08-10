@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
-import { scanImageData } from "@undecaf/zbar-wasm"
+// Avoid importing from '@undecaf/zbar-wasm'
+const { scanImageData } = require('@undecaf/zbar-wasm')
 
 const Home: NextPage = () => {
   const scan = (image: ImageData) => {

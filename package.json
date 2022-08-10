@@ -1,6 +1,6 @@
 {
   "name": "zbar-wasm-nextjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,6 +18,7 @@
     "@types/node": "18.6.4",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
+    "copy-webpack-plugin": "^11.0.0",
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.4",
     "typescript": "4.7.4"
